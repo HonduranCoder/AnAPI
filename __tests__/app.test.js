@@ -63,7 +63,7 @@ describe('backend routes', () => {
     expect(res.body).toEqual([barbie4, barbie5]);
   });
 
-  it('should update a dog by id', async () => {
+  it('should update a barbie by id', async () => {
     const barbie = await Barbie.insert({
       name: 'Barbie',
       skinColor: 'brown',
